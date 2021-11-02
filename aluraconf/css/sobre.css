@@ -1,0 +1,27 @@
+/*Configuração do painel*/
+.painel-sobre {
+    text-align: center;
+}
+/*Letras de destaque titulo*/
+.painel-sobre .titulo-painel{
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+/*Letras de destaque subtitulo*/
+.painel-sobre .subtitulo-painel{
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+/*Letras de destaque subtitulo*/
+.painel-sobre .subtitulo-painel{
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+
+/*Letras da descricao sobre*/
+.painel-sobre .sobre-descricao {
+    font-size: 18px;
+    line-height: 35px;
+} 

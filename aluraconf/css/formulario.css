@@ -1,0 +1,17 @@
+/*Painel Formulario espaçamento da margem*/
+.painel-formulario{
+    margin-top: 32px;
+}
+
+/*Painel Formulario titulo , cor , alinhamento e letra maiuscula*/
+.painel-formulario .titulo{
+    font-size: 32px;
+    color: #EF7247;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/*Centralização do botão*/
+.botao-lugar{
+    text-align: center;
+}

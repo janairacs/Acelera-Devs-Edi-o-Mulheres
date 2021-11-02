@@ -1,0 +1,64 @@
+/* Recuo e cor do painel palestrante*/
+.paniel-palestrante{
+    padding-top: 40px;
+    background: #EF7247;
+}
+
+/* Texto do palestrante*/
+.paniel-palestrante .sobre-palestrante{
+    text-align: center;
+}
+
+/*Cor do titulo do painel palestrante*/
+.paniel-palestrante .titulo{
+    color:white;
+    font-size: 40px;
+    margin-bottom: 16px;
+
+}
+/*Cor do subtitulo do painel palestrante*/
+.paniel-palestrante .subtitulo{
+    color:white;
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+/*Configuração de todos os palestrante*/
+.paniel-palestrante .pales {
+    display: inline-block;
+    width: 220px;
+    background-color: white;
+    margin: 0 16px 32px 0;
+    padding: 18px;
+    border-radius: 10px;
+    vertical-align: top;
+}
+
+
+/*Centralizando as letras do painel palestrante*/
+
+.paniel-palestrante .palestrantes-classe {
+    text-align: center;
+}
+
+/*Imagem palestrante arredonda*/
+.paniel-palestrante .palestrante-imagem {
+    border-radius: 50%
+}
+
+/*Afastamento da imagem palestrante arredonda*/
+.paniel-palestrante .palestrante-nome {
+    margin-top: 10px;
+}
+/*Letra em negrito da bio do palestrante e afastamento*/
+.paniel-palestrante .palestrante-bio {
+    font-weight: bold;
+    margin-top: 16px;
+}
+
+/*Afastamento da letra palestrante */
+.paniel-palestrante .palestrante-orador {
+     margin-top: 16px;
+}
+
+ 

@@ -1,0 +1,71 @@
+/*Header da pagina*/
+.header{
+    background: url(../img/destaque.jpeg) no-repeat;
+    background-size: cover;
+    padding-top: 32px;
+}
+
+/*Estilo do menu*/
+.header .menu-principal{
+    text-align: center;
+}
+
+/*Estilo do item*/
+.header .item-menu{
+    display: inline-block;
+    margin: 0 2px 32px 0;     
+}
+
+/*Estilo da borda do menu*/
+.header .menu-principal .item-menu a {
+    color: white;
+    padding: 16px;
+    background:rgba(0, 0, 0, 0.1);
+    border-radius:4px ;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: background-color 0.5s;
+}
+/*Mudança da borda do menu */
+.header .menu-principal .item-menu a:hover {
+    background-color: #48A3A6;
+}
+
+/*Destaque do header Jumbotron*/
+.header .jumbotron {
+    text-align: center;
+    padding: 0 0 44px 0;
+    text-transform: uppercase;
+}
+
+/*Painel Principal*/
+.header .painel-principal{
+    color: white;
+    text-shadow: 4px 4px 10px black;
+}
+/*Aplicando titulo no Jumbotron*/
+.header .jumbotron .titulo{
+    font-size: 3em;
+}
+
+/*Aplicando subtitulo no Jumbotron*/
+.header .jumbotron .subtitulo{
+    font-size: 2.6em;
+    color: #64FF64;
+    margin-top: 8px;
+}    
+
+
+ /*Estilo do botão no Jumbotron*/
+.header .jumbotron .painel-escrevase {
+    margin-top: 28px;
+
+/*Aplicando ajuste de tela*/
+
+@media(min-width: 650px) {
+
+    .header .jumbotron {
+
+        font-size: 28px;
+    }            
+}
